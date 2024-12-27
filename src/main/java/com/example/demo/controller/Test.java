@@ -9,6 +9,7 @@ public class Test {
 	@GetMapping("/test")
 	public String showTest()
 	{
+		System.out.println("********************");
 		return "Hello Good Morning";
 	}
 
